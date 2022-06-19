@@ -1,0 +1,36 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.service_heading{
+  text-transform: uppercase;
+  position: relative;
+}
+.service{
+  color: #3e4555;
+  font-weight: 400;
+}
+
+.service .img-shadow{
+  box-shadow: 0 0 30px rgba(115, 128, 157, 0.3);
+}
+.service .wrap-service .img-hover{
+  transition: all 0.2s ease-in;
+}
+.service .wrap-service .img-hover:hover{
+  transform: scale(1.1);
+}
+
+.service .badge-info{
+  background-color: rgb(37, 194, 241);
+}
+.service .badge-info:hover{
+  background-color: rgb(12, 63, 78);
+}
+.service .subtitle{
+  line-height: 24px;
+}
+.service .wrap-service .uneven-box{
+  margin-top: 50px;
+}
